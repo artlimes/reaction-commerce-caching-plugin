@@ -15,6 +15,6 @@ Meteor.call("caching/allProducts", productId);
 Meteor.call("caching/allProducts", productSlug);
 ```
 
-This is a convenience method to cache all your visible Product(s). Your visible products will be cached after publish anyway.
+This is a convenience method to cache all your visible Product(s). Note that each visible product will get cached automatically after every publish.
 
 
